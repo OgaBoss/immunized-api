@@ -1,7 +1,7 @@
 /**
  * Created by adebayooluwadamilola on 2/3/19.
  */
-import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn} from 'typeorm';
+import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn} from 'typeorm';
 
 @Entity('roles')
 export class Role {
