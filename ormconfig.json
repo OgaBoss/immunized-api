@@ -5,6 +5,6 @@
   "username": "root",
   "password": "root",
   "database": "immunized",
-  "entities": ["src/**/**/**.entity{.ts,.js}"],
+  "entities": ["src/**/**.entity{.ts,.js}"],
   "synchronize": true
 }
