@@ -2,61 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e451e45-c4c2-4071-9416-5fb581e9fad8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clinics/clinics.entity.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hmo/hmo.entity.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/users/user.entity.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.module.ts" afterPath="$PROJECT_DIR$/src/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/users/users.module.ts" afterPath="$PROJECT_DIR$/src/users/users.module.ts" />
+      <change afterPath="$PROJECT_DIR$/src/BaseRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/CreateUserDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hmo/hmo.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hmo/hmo.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/user.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/dto/RegsiterUser.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hmo/hmo.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hmo/hmo.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/user.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="user.entity.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/users/user.entity.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="app.controller.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/app.controller.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#49#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BaseRepository.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,6 +47,11 @@
         <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Hmos</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,19 +69,25 @@
         <option value="$PROJECT_DIR$/src/auth/dto/RegsiterUser.dto.ts" />
         <option value="$PROJECT_DIR$/src/auth/auth.module.ts" />
         <option value="$PROJECT_DIR$/src/roles/roles.entity.ts" />
-        <option value="$PROJECT_DIR$/src/auth/auth.controller.ts" />
         <option value="$PROJECT_DIR$/src/hmo/hom.entity.ts" />
         <option value="$PROJECT_DIR$/src/clinics/clinics.entity.ts" />
         <option value="$PROJECT_DIR$/src/users/users.module.ts" />
+        <option value="$PROJECT_DIR$/src/hmo/hmo.module.ts" />
         <option value="$PROJECT_DIR$/src/hmo/hmo.entity.ts" />
-        <option value="$PROJECT_DIR$/src/users/user.entity.ts" />
+        <option value="$PROJECT_DIR$/src/dtos/LoginDto.js" />
+        <option value="$PROJECT_DIR$/src/auth/auth.controller.ts" />
+        <option value="$PROJECT_DIR$/src/users/users.service.ts" />
+        <option value="$PROJECT_DIR$/src/hmo/hmo.service.ts" />
+        <option value="$PROJECT_DIR$/src/users/user.interface.ts" />
         <option value="$PROJECT_DIR$/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/users/user.entity.ts" />
+        <option value="$PROJECT_DIR$/src/dtos/CreateUserDto.ts" />
+        <option value="$PROJECT_DIR$/src/auth/auth.service.ts" />
+        <option value="$PROJECT_DIR$/src/dtos/LoginDto.ts" />
+        <option value="$PROJECT_DIR$/src/BaseRepository.ts" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -102,111 +95,62 @@
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1920" />
     <option name="width" value="2560" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immunized" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immunized" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immunized" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immunized" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immunized" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immunized" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immunized" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immunized" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="immunized" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immunized" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immunized" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immunized" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immunized" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immunized" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dtos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immunized" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immunized" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
-    <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
-    <property name="FullScreen" value="true" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -225,19 +169,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.RolesService">
-    <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+  <component name="RunManager" selected="npm.start:dev">
+    <configuration name="RolesService" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RolesService" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
@@ -245,9 +181,28 @@
       <test-names>
         <test-name value="RolesService" />
       </test-names>
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="false" name="start:dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -255,89 +210,23 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="npm.start" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.RolesService" />
-      <item index="2" class="java.lang.String" itemvalue="npm.start:dev" />
+    <list>
+      <item itemvalue="Jest.RolesService" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.start:dev" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="npm.start:dev" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.RolesService" />
-        <item index="2" class="java.lang.String" itemvalue="npm.start" />
+      <list>
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="Jest.RolesService" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -349,6 +238,16 @@
       <workItem from="1549140899280" duration="1507000" />
       <workItem from="1549736491554" duration="1079000" />
       <workItem from="1550225000257" duration="20340000" />
+      <workItem from="1551900996944" duration="5389000" />
+      <workItem from="1551989411155" duration="23000" />
+      <workItem from="1553538072270" duration="2789000" />
+      <workItem from="1555067708511" duration="8785000" />
+      <workItem from="1555493482900" duration="40000" />
+      <workItem from="1555533402870" duration="1514000" />
+      <workItem from="1556123261100" duration="1392000" />
+      <workItem from="1556541226239" duration="1001000" />
+      <workItem from="1557136858364" duration="2981000" />
+      <workItem from="1557260202723" duration="1000000" />
     </task>
     <servers />
   </component>
@@ -358,311 +257,76 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28373000" />
+    <option name="totallyTimeSpent" value="53287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="2560" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46646342" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13741064" sideWeight="0.5163399" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24106434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.090150915" sideWeight="0.48366013" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" id="Project" order="1" sideWeight="0.4725926" visible="true" weight="0.08459094" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="0" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="NativeScript" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Quokka" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Terminal" order="3" weight="0.20979765" />
+      <window_info anchor="right" id="npm" order="4" sideWeight="0.5274074" weight="0.18070818" />
+      <window_info anchor="right" id="Run" order="5" weight="0.27955273" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-    <watches-manager />
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ormconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <marker date="1550266085601" expanded="true" signature="0:199" ph="{&quot;type&quot;: &quot;mysql&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/roles/roles.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <marker date="1550333974727" expanded="false" signature="0:53" ph="/** Created by adebayooluwadamilola on 2/3/19. ...*/" />
-            <marker date="1550333974727" expanded="true" signature="190:447" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ormconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <marker date="1550266085601" expanded="true" signature="0:199" ph="{&quot;type&quot;: &quot;mysql&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/roles/roles.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <marker date="1550333974727" expanded="false" signature="0:53" ph="/** Created by adebayooluwadamilola on 2/3/19. ...*/" />
-            <marker date="1550333974727" expanded="true" signature="190:447" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ormconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1550266085601" expanded="true" signature="0:199" ph="{&quot;type&quot;: &quot;mysql&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/db-ormconfig.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <marker date="1551128247310" expanded="true" signature="0:2017" ph="{&quot;name&quot;: &quot;immunized&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="163:820" ph="{&quot;build&quot;: &quot;tsc -p tsconfig.build.json&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="840:1319" ph="{&quot;@nestjs/common&quot;: &quot;^5.4.0&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="1342:1743" ph="{&quot;@nestjs/testing&quot;: &quot;^5.1.0&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="1755:2015" ph="{&quot;rootDir&quot;: &quot;src&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="1785:1829" ph="[...]" />
-            <marker date="1551128247310" expanded="true" signature="1900:1940" ph="{&quot;^.+\.(t|j)s$&quot;: &quot;ts-jest&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/typeorm/repository/Repository.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="135" column="4" lean-forward="false" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
-          <folding>
-            <marker date="499162500000" expanded="false" signature="7:994" ph="..." />
-            <marker date="499162500000" expanded="true" signature="995:1106" ph="/** Repository is supposed to work with your entity objects. Find entities, insert, update, delete, etc. ...*/" />
-            <marker date="499162500000" expanded="true" signature="1169:9412" ph="{...}" />
-            <marker date="499162500000" expanded="true" signature="1175:1233" ph="/** Entity Manager used by this repository. ...*/" />
-            <marker date="499162500000" expanded="true" signature="1275:1351" ph="/** Entity metadata of the entity current repository manages. ...*/" />
-            <marker date="499162500000" expanded="true" signature="1395:1461" ph="/** Query runner provider used for this repository. ...*/" />
-            <marker date="499162500000" expanded="true" signature="1506:1591" ph="/** Creates a new query builder that can be used to build a sql query. ...*/" />
-            <marker date="499162500000" expanded="true" signature="1691:1868" ph="/** Returns object that is managed by this repository. ...*/" />
-            <marker date="499162500000" expanded="true" signature="1913:2023" ph="/** Checks if entity has an id. ...*/" />
-            <marker date="499162500000" expanded="true" signature="2064:2104" ph="/** Gets entity mixed id. ...*/" />
-            <marker date="499162500000" expanded="true" signature="2141:2190" ph="/** Creates a new entity instance. ...*/" />
-            <marker date="499162500000" expanded="true" signature="2217:2409" ph="/** Creates a new entities and copies all entity properties from given objects into their new entities. ...*/" />
-            <marker date="499162500000" expanded="true" signature="2476:2667" ph="/** Creates a new entity instance and copies all entity properties from this object into a new entity. ...*/" />
-            <marker date="499162500000" expanded="true" signature="2725:2814" ph="/** Merges multiple entities (or entity-like objects) into a given entity. ...*/" />
-            <marker date="499162500000" expanded="true" signature="2902:3455" ph="/** Creates a new entity from the given plan javascript object. If entity already exist in the database, then ...*/" />
-            <marker date="499162500000" expanded="true" signature="3535:3676" ph="/** Saves all given entities in the database. ...*/" />
-            <marker date="499162500000" expanded="true" signature="3755:3785" ph="..." />
-            <marker date="499162500000" expanded="true" signature="3910:4047" ph="/** Saves a given entity in the database. ...*/" />
-            <marker date="499162500000" expanded="true" signature="4122:4152" ph="..." />
-            <marker date="499162500000" expanded="true" signature="4267:4329" ph="/** Removes a given entities from the database. ...*/" />
-            <marker date="499162500000" expanded="true" signature="4410:4470" ph="/** Removes a given entity from the database. ...*/" />
-            <marker date="499162500000" expanded="true" signature="4545:4883" ph="/** Inserts a given entity into the database. ...*/" />
-            <marker date="499162500000" expanded="true" signature="5015:5322" ph="/** Updates entity partially. Entity can be found by a given conditions. ...*/" />
-            <marker date="499162500000" expanded="true" signature="5535:5811" ph="/** Deletes entities by a given criteria. ...*/" />
-            <marker date="499162500000" expanded="true" signature="5990:6050" ph="/** Counts entities that match given options. ...*/" />
-            <marker date="499162500000" expanded="true" signature="6118:6181" ph="/** Counts entities that match given conditions. ...*/" />
-            <marker date="499162500000" expanded="true" signature="6251:6310" ph="/** Finds entities that match given options. ...*/" />
-            <marker date="499162500000" expanded="true" signature="6379:6441" ph="/** Finds entities that match given conditions. ...*/" />
-            <marker date="499162500000" expanded="true" signature="6512:6701" ph="/** Finds entities that match given find options. ...*/" />
-            <marker date="499162500000" expanded="true" signature="6788:6975" ph="/** Finds entities that match given conditions. ...*/" />
-            <marker date="499162500000" expanded="true" signature="7064:7152" ph="/** Finds entities by ids. ...*/" />
-            <marker date="499162500000" expanded="true" signature="7238:7324" ph="/** Finds entities by ids. ...*/" />
-            <marker date="499162500000" expanded="true" signature="7412:7477" ph="/** Finds first entity that matches given options. ...*/" />
-            <marker date="499162500000" expanded="true" signature="7598:7663" ph="/** Finds first entity that matches given options. ...*/" />
-            <marker date="499162500000" expanded="true" signature="7744:7812" ph="/** Finds first entity that matches given conditions. ...*/" />
-            <marker date="499162500000" expanded="true" signature="7930:7995" ph="/** Finds first entity that matches given options. ...*/" />
-            <marker date="499162500000" expanded="true" signature="8110:8175" ph="/** Finds first entity that matches given options. ...*/" />
-            <marker date="499162500000" expanded="true" signature="8250:8318" ph="/** Finds first entity that matches given conditions. ...*/" />
-            <marker date="499162500000" expanded="true" signature="8430:8606" ph="/** Executes a raw SQL query and returns a raw database results. ...*/" />
-            <marker date="499162500000" expanded="true" signature="8671:8930" ph="/** Clears all the data from the given table/collection (truncates/drops it). ...*/" />
-            <marker date="499162500000" expanded="true" signature="8963:9064" ph="/** Increments some column by provided value of the entities matched given conditions. ...*/" />
-            <marker date="499162500000" expanded="true" signature="9189:9290" ph="/** Decrements some column by provided value of the entities matched given conditions. ...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/user.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/db-ormconfig.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ormconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <marker date="1550266085601" expanded="true" signature="0:199" ph="{&quot;type&quot;: &quot;mysql&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/user.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/database/db-ormconfig.ts" />
     <entry file="file://$PROJECT_DIR$/src/roles/roles.controller.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1550235543594" expanded="true" signature="7:108" ph="..." />
-            <marker date="1550235543594" expanded="true" signature="145:483" ph="{...}" />
-            <marker date="1550235543594" expanded="true" signature="208:400" ph="{...}" />
-            <marker date="1550235543594" expanded="true" signature="275:320" ph="{...}" />
-            <marker date="1550235543594" expanded="true" signature="436:479" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/roles/roles.service.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1550235930120" expanded="true" signature="7:102" ph="..." />
-            <marker date="1550235930120" expanded="true" signature="135:450" ph="{...}" />
-            <marker date="1550235930120" expanded="true" signature="192:370" ph="{...}" />
-            <marker date="1550235930120" expanded="true" signature="259:299" ph="{...}" />
-            <marker date="1550235930120" expanded="true" signature="406:446" ph="{...}" />
-          </folding>
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@nestjs/common/pipes/validation.pipe.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="499162500000" expanded="false" signature="7:327" ph="..." />
-            <marker date="499162500000" expanded="true" signature="392:561" ph="..." />
-            <marker date="499162500000" expanded="true" signature="628:1104" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pipes/validation.pipe.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1550329979084" expanded="false" signature="0:54" ph="/** Created by adebayooluwadamilola on 2/16/19. ...*/" />
-            <marker date="1550329979084" expanded="true" signature="62:329" ph="..." />
-            <marker date="1550329979084" expanded="true" signature="403:1494" ph="{...}" />
-            <marker date="1550329979084" expanded="true" signature="460:999" ph="{...}" />
-            <marker date="1550329979084" expanded="true" signature="483:558" ph="{...}" />
-            <marker date="1550329979084" expanded="true" signature="652:689" ph="{...}" />
-            <marker date="1550329979084" expanded="true" signature="822:971" ph="{...}" />
-            <marker date="1550329979084" expanded="true" signature="1032:1320" ph="{...}" />
-            <marker date="1550329979084" expanded="true" signature="1090:1289" ph="{...}" />
-            <marker date="1550329979084" expanded="true" signature="1195:1277" ph="{...}" />
-            <marker date="1550329979084" expanded="true" signature="1364:1492" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding>
-            <marker date="1551128247310" expanded="true" signature="0:2017" ph="{&quot;name&quot;: &quot;immunized&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="163:820" ph="{&quot;build&quot;: &quot;tsc -p tsconfig.build.json&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="840:1319" ph="{&quot;@nestjs/common&quot;: &quot;^5.4.0&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="1342:1743" ph="{&quot;@nestjs/testing&quot;: &quot;^5.1.0&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="1755:2015" ph="{&quot;rootDir&quot;: &quot;src&quot;...}" />
-            <marker date="1551128247310" expanded="true" signature="1785:1829" ph="[...]" />
-            <marker date="1551128247310" expanded="true" signature="1900:1940" ph="{&quot;^.+\.(t|j)s$&quot;: &quot;ts-jest&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/auth/dto/RegsiterUser.dto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1550330330755" expanded="false" signature="0:54" ph="/** Created by adebayooluwadamilola on 2/15/19. ...*/" />
-            <marker date="1550330330755" expanded="true" signature="129:279" ph="{...}" />
-          </folding>
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/roles/roles.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1550266699909" expanded="true" signature="7:181" ph="..." />
-            <marker date="1550266699909" expanded="true" signature="223:438" ph="{...}" />
-            <marker date="1550266699909" expanded="true" signature="380:436" ph="{...}" />
-          </folding>
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/roles/roles.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1550235543594" expanded="true" signature="96:98" ph="{...}" />
-          </folding>
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -670,136 +334,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <marker date="1550266699906" expanded="true" signature="7:230" ph="..." />
-            <marker date="1550266699906" expanded="true" signature="240:359" ph="{...}" />
-            <marker date="1550266699906" expanded="true" signature="386:388" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/auth/auth.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1550330726417" expanded="true" signature="7:92" ph="..." />
-            <marker date="1550330726417" expanded="true" signature="102:138" ph="{...}" />
-            <marker date="1550330726417" expanded="true" signature="164:166" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/auth/auth.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1550266113420" expanded="true" signature="7:100" ph="..." />
-            <marker date="1550266113420" expanded="true" signature="132:443" ph="{...}" />
-            <marker date="1550266113420" expanded="true" signature="188:363" ph="{...}" />
-            <marker date="1550266113420" expanded="true" signature="255:294" ph="{...}" />
-            <marker date="1550266113420" expanded="true" signature="399:439" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/auth/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1550266113420" expanded="true" signature="85:87" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clinics/clinics.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1550353853720" expanded="false" signature="0:54" ph="/** Created by adebayooluwadamilola on 2/16/19. ...*/" />
-            <marker date="1550353853720" expanded="false" signature="55:109" ph="/** Created by adebayooluwadamilola on 2/16/19. ...*/" />
-            <marker date="1550353853720" expanded="true" signature="251:628" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/users/users.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1550335204335" expanded="true" signature="96:98" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmo/hmo.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1550354434755" expanded="false" signature="0:54" ph="/** Created by adebayooluwadamilola on 2/16/19. ...*/" />
-            <marker date="1550354434755" expanded="true" signature="190:567" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/users/users.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1550354361512" expanded="true" signature="7:142" ph="..." />
-            <marker date="1550354361512" expanded="true" signature="152:245" ph="{...}" />
-            <marker date="1550354361512" expanded="true" signature="272:274" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/users/users.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1550335231137" expanded="true" signature="86:88" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/users/user.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/roles/roles.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.controller.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/users.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.mwb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/users.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmo/hmo.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/user.interface.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/users.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmo/hmo.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pipes/validation.pipe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ormconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <marker date="1550333974727" expanded="false" signature="0:53" ph="/** Created by adebayooluwadamilola on 2/3/19. ...*/" />
-            <marker date="1550333974727" expanded="true" signature="190:447" ph="{...}" />
+            <marker date="1555534431668" expanded="true" signature="7:235" ph="..." />
+            <marker date="1555534431668" expanded="true" signature="7:284" ph="..." />
+            <marker date="1555534431668" expanded="true" signature="7:431" ph="..." />
+            <marker date="1555534431668" expanded="true" signature="441:732" ph="{...}" />
+            <marker date="1555534431668" expanded="true" signature="454:669" ph="[...]" />
+            <marker date="1555534431668" expanded="true" signature="576:663" ph="{...}" />
+            <marker date="1555534431668" expanded="true" signature="728:732" ph="{...}" />
+            <marker date="1555534431668" expanded="true" signature="757:759" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmo/hmo.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users/user.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#55#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/auth/dto/RegsiterUser.dto.ts" />
     <entry file="file://$PROJECT_DIR$/src/auth/auth.controller.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/auth/auth.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/auth/auth.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/auth/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <marker date="1550266155011" expanded="true" signature="7:106" ph="..." />
-            <marker date="1550266155011" expanded="true" signature="142:476" ph="{...}" />
-            <marker date="1550266155011" expanded="true" signature="204:393" ph="{...}" />
-            <marker date="1550266155011" expanded="true" signature="271:315" ph="{...}" />
-            <marker date="1550266155011" expanded="true" signature="429:472" ph="{...}" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -807,63 +494,42 @@
     <entry file="file://$PROJECT_DIR$/src/auth/auth.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1550334360966" expanded="true" signature="94:98" ph="{...}" />
-          </folding>
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.ts">
+    <entry file="file://$PROJECT_DIR$/src/users/users.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1550267991229" expanded="true" signature="7:85" ph="..." />
-            <marker date="1550267991229" expanded="true" signature="114:194" ph="{...}" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/src/dtos/CreateUserDto.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1551131179959" expanded="true" signature="7:235" ph="..." />
-            <marker date="1551131179959" expanded="true" signature="7:284" ph="..." />
-            <marker date="1551131179959" expanded="true" signature="7:385" ph="..." />
-            <marker date="1551131179959" expanded="true" signature="395:671" ph="{...}" />
-            <marker date="1551131179959" expanded="true" signature="408:608" ph="[...]" />
-            <marker date="1551131179959" expanded="true" signature="515:602" ph="{...}" />
-            <marker date="1551131179959" expanded="true" signature="667:671" ph="{...}" />
-            <marker date="1551131179959" expanded="true" signature="696:698" ph="{...}" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.controller.spec.ts">
+    <entry file="file://$PROJECT_DIR$/src/dtos/LoginDto.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1548750474342" expanded="true" signature="7:148" ph="..." />
-            <marker date="1548750474342" expanded="true" signature="182:614" ph="{...}" />
-            <marker date="1548750474342" expanded="true" signature="246:460" ph="{...}" />
-            <marker date="1548750474342" expanded="true" signature="310:384" ph="{...}" />
-            <marker date="1548750474342" expanded="true" signature="489:610" ph="{...}" />
-            <marker date="1548750474342" expanded="true" signature="536:604" ph="{...}" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.controller.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/typeorm/repository/Repository.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="318">
+          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaseRepository.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>

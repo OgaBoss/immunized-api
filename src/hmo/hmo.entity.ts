@@ -4,7 +4,7 @@
 import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn} from 'typeorm';
 
 @Entity('hmos')
-export class Hmos {
+export class HmoEntity {
 
     @PrimaryGeneratedColumn('uuid')
     id: string;
@@ -13,16 +13,7 @@ export class Hmos {
     name: string;
 
     @Column('varchar')
-    address: string;
-
-    @Column('text')
-    city: string;
-
-    @Column('text')
-    state: string;
-
-    @Column('text')
-    country: string;
+    description: string;
 
     @CreateDateColumn()
     createdAt: string;

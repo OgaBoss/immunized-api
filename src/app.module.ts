@@ -5,14 +5,16 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { RolesModule } from './roles/roles.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
+import { HmoModule } from './hmo/hmo.module';
 import { GraphQLModule } from '@nestjs/graphql';
 
 @Module({
   imports: [
     TypeOrmModule.forRoot(),
     RolesModule,
-    AuthModule,
     UsersModule,
+    HmoModule,
+    AuthModule,
     GraphQLModule.forRoot({
       typePaths: ['./**/*.graphql'],
       debug: true,
