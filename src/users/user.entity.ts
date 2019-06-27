@@ -28,10 +28,13 @@ export class UserEntity {
     dob: string;
 
     @Column('varchar', {default: null})
+    name: string;
+
+    @Column('varchar', {default: null})
     password: string;
 
     @Column('varchar', { length: 25, default: null })
-    relationship: string;
+    reminder: string;
 
     @Column('varchar', { length: 20, default: null })
     phone: string;

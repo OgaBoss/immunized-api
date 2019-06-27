@@ -7,7 +7,7 @@ import { IsNotEmpty } from 'class-validator';
 export class RegisterUser {
 
     @IsNotEmpty()
-    readonly username: string;
+    readonly name: string;
 
     @IsNotEmpty()
     readonly email: string;
